@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+}
+p {
+   background-color: #BFC534;
+   font-weight: bold;
+}
+
+#test {
+    background-color: RGB(156,11,239);
+    border-color: darkred;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.text {
+    background-color: lime;
+    font-size: 34px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: 100;
+    border: 10px solid darkblue;
+    width: 50%;
+    height: 200px;
+    border-radius: 20px;
+}
