@@ -52,3 +52,9 @@ h1:hover {
     font-size: 30px;
     transition: 1s;
 }
+
+.photo_img {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+}
