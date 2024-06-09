@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+<div class="dropdown" data-bs-theme="light">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
+    Раскрывающийся список по умолчанию
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
+    <li><a class="dropdown-item active" href="#">Действие</a></li>
+    <li><a class="dropdown-item" href="#">Действие</a></li>
+    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Отделенная ссылка</a></li>
+  </ul>
+</div>
+
+<div class="dropdown" data-bs-theme="dark">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonDark" data-bs-toggle="dropdown" aria-expanded="false">
+    Темный раскрывающийся список
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonDark">
+    <li><a class="dropdown-item active" href="#">Действие</a></li>
+    <li><a class="dropdown-item" href="#">Действие</a></li>
+    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Отделенная ссылка</a></li>
+  </ul>
+</div>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col-sm-8">col-sm-8</div>
+    <div class="col-sm-4">col-sm-4</div>
+  </div>
+  <div class="row">
+    <div class="col-sm">col-sm</div>
+    <div class="col-sm">col-sm</div>
+    <div class="col-sm">col-sm</div>
+  </div>
+</div>
+
+<div class="container text-center">
+  <!-- Сложите колонки на мобильном устройстве, сделав одну полную, а другую половинную -->
+  <div class="row">
+    <div class="col-md-8">.col-md-8</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+
+  <!-- Ширина колонок начинается с 50% на мобильных устройствах и увеличивается до 33,3% на компьютерах. -->
+  <div class="row">
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+
+  <!-- Колонки всегда имеют ширину 50% на мобильных и настольных компьютерах. -->
+  <div class="row">
+    <div class="col-6">.col-6</div>
+    <div class="col-6">.col-6</div>
+  </div>
+</div>
+
+<div class="container text-center">
+  <div class="row justify-content-start">
+    <div class="col-4">
+      Одна из двух колонок
+    </div>
+    <div class="col-4">
+      Одна из двух колонок
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-4">
+      Одна из двух колонок
+    </div>
+    <div class="col-4">
+      Одна из двух колонок
+    </div>
+  </div>
+  <div class="row justify-content-end">
+    <div class="col-4">
+      Одна из двух колонок
+    </div>
+    <div class="col-4">
+      Одна из двух колонок
+    </div>
+  </div>
+  <div class="row justify-content-around">
+    <div class="col-4">
+      Одна из двух колонок
+    </div>
+    <div class="col-4">
+      Одна из двух колонок
+    </div>
+  </div>
+  <div class="row justify-content-between">
+    <div class="col-4">
+      Одна из двух колонок
+    </div>
+    <div class="col-4">
+      Одна из двух колонок
+    </div>
+  </div>
+  <div class="row justify-content-evenly">
+    <div class="col-4">
+      Одна из двух колонок
+    </div>
+    <div class="col-4">
+      Одна из двух колонок
+    </div>
+  </div>
+</div>
+
+<div class="container px-4 text-center">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="p-3">Содержание столбца</div>
+    </div>
+    <div class="col">
+      <div class="p-3">Содержание столбца</div>
+    </div>
+  </div>
+</div>
+
+<div class="grid text-center" style="--bs-rows: 3; --bs-columns: 3;">
+  <div>Автоколонка</div>
+  <div class="g-start-2" style="grid-row: 2">Автоколонка</div>
+  <div class="g-start-3" style="grid-row: 3">Автоколонка</div>
+</div>
+
+<h1>Пример заголовока <span class="badge bg-secondary">Новый</span></h1>
+<h2>Пример заголовока <span class="badge bg-secondary">Новый</span></h2>
+<h3>Пример заголовока <span class="badge bg-secondary">Новый</span></h3>
+<h4>Пример заголовока <span class="badge bg-secondary">Новый</span></h4>
+<h5>Пример заголовока <span class="badge bg-secondary">Новый</span></h5>
+<h6>Пример заголовока <span class="badge bg-secondary">Новый</span></h6>
+
+<button type="button" class="btn btn-primary">
+  Оповещения <span class="badge text-bg-secondary">4</span>
+</button>
+
+<button type="button" class="btn btn-primary position-relative">
+  Входящие
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    99+
+    <span class="visually-hidden">непрочитанные сообщения</span>
+  </span>
+</button>
+
+<button type="button" class="btn btn-primary position-relative">
+  Профиль
+  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+    <span class="visually-hidden">Новые уведомления</span>
+  </span>
+</button>
+
+<hr>
+
+<span class="badge text-bg-primary">Primary</span>
+<span class="badge text-bg-secondary">Secondary</span>
+<span class="badge text-bg-success">Success</span>
+<span class="badge text-bg-danger">Danger</span>
+<span class="badge text-bg-warning">Warning</span>
+<span class="badge text-bg-info">Info</span>
+<span class="badge text-bg-light">Light</span>
+<span class="badge text-bg-dark">Dark</span>
+
+<hr>
+
+# разделители
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Главная</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Главная</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Библиотека</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Главная</a></li>
+    <li class="breadcrumb-item"><a href="#">Библиотека</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Данные</li>
+  </ol>
+</nav>
+
+# кнопки
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
