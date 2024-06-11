@@ -7,7 +7,6 @@ def films():
     return render_template('index.html')
 
 @app.route('/person/')
-
 def person():
     return render_template('main.html')
 
